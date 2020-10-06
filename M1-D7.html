@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      .header {
+        padding: 5%;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+      }
+      .header h1 {
+        font-size: 40px;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      * {
+      box-sizing: border-box;
+      }
+      /* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+    </style>
+    <title id="title">Smartphone Shop</title>
+  </head>
+  <body id="bkgrnd" style="background-color: lightgray;">
+    <div class="header">
+      <h1 id="header-title">Smartphone Shop</h1>
+    </div>
+    <nav class="w3-bar w3-black">
+      <a href="#Home" class="w3-button w3-bar-item">Home</a>
+      <a href="#Smartphones" class="w3-button w3-bar-item">Smartphones</a>
+      <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+    </nav>
+    <br /><br />
+    <table style="width: 100%">
+      <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg"
+            alt="Goole pixel 5"
+          />
+        </td>
+        <td>Google pixel 5</td>
+        <td>
+          <p>
+            Google Pixel 5 is not a flagship model as the specs show. The phone
+            is powered by the Snapdragon 765G chipset, which supports 5G, 8GB
+            RAM, and 128GB storage. There are a dual-camera setup and a
+            fingerprint on the back. A 6-inch OLED display with a 90Hz refresh
+            rate and 8MP selfie camera are presented at the front. Google Pixel
+            5 is powered by a 4080mAh battery and Android 11. The price of the
+            phone is $700 and will be available unlocked or through Verizon on
+            October 29.
+            <p>Link to purchase from Amazon: <a href="https://www.amazon.com/Google-Pixel-32GB-Verizon-Wireless/dp/B01N5BOBIF">Google Pixel 5 Amazon </a></p>
+            
+          </p>
+        </td>
+        <td>$700</td>
+        <tr>
+            <td><img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-max-r2.jpg" alt="Apple iPhone 12 Pro Max"></td>
+            <td>Apple iPhone 12 Pro Max</td>
+            <td><p>The Apple iPhone 12 Pro will be revealed in September 2020 with A14 Bionic chipset, a quad-camera setup with a larger sensor as well as a ToF sensor, and a presumably new design. The phone is expected to carry a 6.7-inch OLED display. Face ID and possibly in-display Touch ID will be on board. The iPhone 12 Pro will also be available in 5G variant.
+                <p>Link to purchase from Amazon: <a href="https://www.amazon.com/Apple-iPhone-Midnight-Unlocked-Renewed/dp/B07Z4681LQ">Apple iPhone 12 Pro Max Amazon </a></p>
+            </p></td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td><img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-10t-5g-1.jpg" alt="Xiaomi Mi 10T 5G"></td>
+            <td>Xiaomi Mi 10T 5G</td>
+            <td><p>Xiaomi Mi 10T 5G specs include a 6.67-inch IPS display with a 144Hz refresh rate, Snapdragon 865 processor, 8GB RAM, and 128GB/256GB storage. There is a triple camera setup with a 108MP main sensor on the back, while the front shooter is 20MP. The phone is powered by a 5000mAh battery and Android 10 out of the box. The Mi 10T Pro price is 600 Euros for the 8GB/128GB combo and for €50 more you can get the varinat with 256GB storage.
+                <p>Link to purchase from Amazon: <a href="https://www.amazon.in/dp/B07WZG2YR3/ref=s9_acsd_al_bw_c2_x_0_i?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-1&pf_rd_r=WBDX1WQ3NS5A49KEBMBE&pf_rd_t=101&pf_rd_p=ea31cf6c-1a1a-416f-9f12-2c43ef8bbc48&pf_rd_i=21098511031">Xiaomi Mi 10T 5G Amazon </a></p>
+
+            </p></td>
+            <td>€499.90</td>
+        </tr>
+        <tr>
+            <td><img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s20-fe-5g-1.jpg" alt="Samsung Galaxy S20 FE 5G"></td>
+            <td>Samsung Galaxy S20 FE 5G</td>
+            <td><p>Samsung Galaxy S20 FE (Fan Edition) is the successor of Galaxy S10 Lite. Specifications include a 6.5-inch FHD+ display, Snapdragon 865 chipset with 8GB RAM and 128GB/256GB storage, and 4500 battery. There is a triple-camera setup on the back, with the same main sensor found in regular Galaxy S20. The phone is available with 5G support or LTE only. The Samsung Galaxy S20 FE price is $699.
+                <p>Link to purchase from Amazon: <a href="https://www.amazon.com/Samsung-Factory-Unlocked-Smartphone-Pro-Grade/dp/B08FYVMRM5">Samsung Galaxy S20 FE 5G Amazon </a></p>
+
+            </p></td>
+            <td>$699</td>
+        </tr>
+        <tr>
+            <td><img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-10t-pro-02.jpg" alt="Xiaomi Mi 10T Pro 5G"></td>
+            <td>Xiaomi Mi 10T Pro 5G</td>
+            <td><p>Xiaomi Mi 10T Pro specs include a 6.67-inch IPS display with a 144Hz refresh rate, Snapdragon 865 processor, 8GB RAM, and 128GB/256GB storage. There is a triple camera setup with a 108MP main sensor on the back, while the front shooter is 20MP. The phone is powered by a 5000mAh battery and Android 10 out of the box. The Mi 10T Pro price is 600 Euros for the 8GB/128GB combo and for €50 more you can get the varinat with 256GB storage.
+                <p>Link to purchase from Amazon: <a href="https://www.amazon.in/dp/B07X3P29LF/ref=s9_acsd_al_bw_c2_x_2_t?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-1&pf_rd_r=PFJ68MVGAHFY95PE3WPH&pf_rd_t=101&pf_rd_p=ea31cf6c-1a1a-416f-9f12-2c43ef8bbc48&pf_rd_i=21098511031">Xiaomi Mi 10T Pro 5G Amazon </a></p>
+
+            </p></td>
+            <td>€ 599.90</td>
+        </tr>
+      </tr>
+    </table>
+      <br>
+      <td><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.572630234018!2d18.176674115378173!3d43.9903090791112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475f2e2c2fde52f5%3A0x4dcad184653913ca!2sMehmeda%20Skopljaka%2C%20Visoko!5e1!3m2!1sen!2sba!4v1601906010296!5m2!1sen!2sba" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p></td>
+      <br>
+      
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by, and check out our latest smartphones , or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="https://cdn.wallpapersafari.com/97/19/rE5Xfu.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+<p class="w3-medium">
+Smartphone Shop
+<p id="address" class="w3-medium">Mehmeda Skopljaka 16, Visoko</p>
+
+</p>
+      </footer>
+      <script src="M1-D6.js">
+      </script>
+  </body>
+</html>
