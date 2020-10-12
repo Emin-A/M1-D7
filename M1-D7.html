@@ -176,15 +176,21 @@ input[type=submit]:hover {
     </table>
     <h2 id="listTitle">Todo List</h2>
           <ul id="firstList">
+            <button onclick="firstUlDisappear()">Remove Unordered List:</button>
               <li><p>1st</p></li>
               <li>2nd</li>
               <li>3rd</li>
           </ul>
           <ul id="secondList">
+            <p>Add New List:<b id="here"></b></p>
+            <input type="text" id="listname" value=""> 
+            <input type="button" onclick = "addToTheSecond()" value="Submit">
               <li>1st</li>
               <li>2nd</li>
               <li>3rd</li>
+              <li id="demo"></li>
           </ul>
+          <button onclick="paintItGreen()">Add Green Background:</button>
           <div>
               <p>This text is just for the exercise</p>
           </div>
